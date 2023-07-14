@@ -1,0 +1,23 @@
+<mat-grid-list cols="2" rowHeight="100%">
+    <mat-grid-tile class="signup">
+        <div class="example-container">
+            <mat-form-field>
+                <mat-label>Enter your email</mat-label>
+                <input matInput placeholder="pat@example.com" required #email>
+                <mat-error>Invalid Email</mat-error>
+            </mat-form-field>
+        </div>
+        <div class="example-container">
+            <mat-form-field>
+                <mat-label>Enter your Password</mat-label>
+                <input matInput required #password>
+                <mat-error>Invalid Password</mat-error>
+            </mat-form-field>
+        </div>
+        <button mat-button>Submit</button>
+
+    </mat-grid-tile>
+    <mat-grid-tile class="login">2</mat-grid-tile>
+
+
+</mat-grid-list>
